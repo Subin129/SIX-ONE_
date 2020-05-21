@@ -6,7 +6,7 @@
 <html>
 	<head>
 	<meta charset="utf-8">
-	<title>sadfsdf</title>
+	<title>우리 사이트 이름 정해야함</title>
 	
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900" rel="stylesheet">
 	
