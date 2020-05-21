@@ -74,7 +74,7 @@
 						<div class="col-md-10 text-right menu-1">
 							<ul>
 								<li><a href="index.html">Home</a></li>
-								<li class="has-dropdown"><a href="classes.html">Classes</a>
+								<li class="has-dropdown"><a href="classes.html">Cla1sses</a>
 									<ul class="dropdown">
 										<li><a href="classes-single.html">Classes Single</a></li>
 										<li><a href="#">Cardio Classes</a></li>
