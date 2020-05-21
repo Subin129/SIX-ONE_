@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
+<<<<<<< HEAD
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -518,6 +519,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="<c:url value='/resources/js/main.js' />"></script>
 
 	</body>
+
 </html>
 
 
