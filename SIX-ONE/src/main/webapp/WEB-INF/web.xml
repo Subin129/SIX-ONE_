@@ -47,16 +47,18 @@
 	</filter-mapping>
 
 	<!-- security -->
+	<!-- 나중에 시큐리티 추가 -->
 	<!-- spring-security filter -->
     	<!-- 필터명은 반드시 springSecurityFilterChain으로-->
-	<filter>
+    	
+	<!-- <filter>
 		<filter-name>springSecurityFilterChain</filter-name>
 		<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
 	</filter>
 	<filter-mapping>
 		<filter-name>springSecurityFilterChain</filter-name>
-		<url-pattern>/*</url-pattern><!-- /*로 모든 요청을 security 필터를 이용 -->
-	</filter-mapping> 
+		<url-pattern>/*</url-pattern>/*로 모든 요청을 security 필터를 이용
+	</filter-mapping>  -->
 	
 	
 
