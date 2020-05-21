@@ -9,6 +9,6 @@
 	Hello world!  
 </h1>
 
-<P>  The time on the seraver is ${serverTime}. </P>
+<P>  The time on the s2eraver is ${serverTime}. </P>
 </body>
 </html>
