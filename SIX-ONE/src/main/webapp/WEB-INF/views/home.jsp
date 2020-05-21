@@ -10,7 +10,7 @@
 	Hello world!  
 </h1>
 
-<P>  The time on the s2eraver is ${serverTime}. 
+<P>  The time on the s2ersaver is ${serverTime}. 
 	프로젝트 시작
 </P>
 </body>
