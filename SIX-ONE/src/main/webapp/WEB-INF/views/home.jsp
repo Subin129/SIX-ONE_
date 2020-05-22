@@ -2,43 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
-	<body>
-		
-	<div class="colorlib-loader"></div>
-
-	<div id="page">
-		<nav class="colorlib-nav" role="navigation">
-			
-			<div class="top-menu">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-2">
-							<div id="colorlib-logo"><a href="<c:url value='/'/>">SITENAME</a></div>
-						</div>
-						<div class="col-md-10 text-right menu-1">
-							<ul>
-								<li class="active"><a href="<c:url value='/'/>">홈</a></li>
-								<li class="has-dropdown">
-									<a href="<c:url value='/exercise.do'/>">운동</a>
-									<ul class="dropdown">
-										<li><a href="<c:url value='/exercise.do'/>">운동</a></li>
-										<li><a href="#">운동1</a></li>
-										<li><a href="#">Muscle Classes</a></li>
-										<li><a href="#">Fitness Classes</a></li>
-										<li><a href="#">Body Building</a></li>
-									</ul>
-								</li>
-								<li><a href="schedule.html">스케쥴</a></li>
-								<li><a href="about.html">타임라인</a></li>
-								<li><a href="event.html">게시판</a></li>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="contact.html">마이</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</nav>
+	
 		<aside id="colorlib-hero">
 			<div class="flexslider">
 				<ul class="slides">
