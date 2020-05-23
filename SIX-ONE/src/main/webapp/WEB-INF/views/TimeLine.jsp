@@ -7,14 +7,14 @@
 
 <!--  본문 -->
 <div class="col-md-3 col-md-offset-1 trainers-entry follow" style="padding-top:30px">  
-							<img src="resources/images/black.jpg" style="width: 100%; height: 500px;" />
+							<img src="${aaa }" style="width: 100%; height: 500px;" />
 							<p style="color: black;">대충 따라오는 메뉴</p>
 				</div>
 		<div class="col-md-6 col-md-offset-1 appendd" style="padding-top: 20px">
 			<div class="animate-box">
 				<div class="trainers-entry">
 					<div class="trainer-img"
-						style="background-image: url(resources/images/classes-1.jpg); height: 600px"></div>
+						style="background-image: url(${bbb}); height: 600px"></div>
 					<div class="desc">
 						<h3>처음에 로딩되는 게시물 아이디 들어갈곳</h3>
 						<span> 내용 </br>들어갈 곳
