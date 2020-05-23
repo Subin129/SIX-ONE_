@@ -17,5 +17,13 @@ public class TimelLineCont {
 		
 		return "/TimeLine.tiles";
 	}
+	
+	@RequestMapping(value = "/exercise.do", method = RequestMethod.GET)
+	public String exec(Locale locale, Model model) {
+	
+	
+		
+		return "/exercise.tiles";
+	}
 
 }
