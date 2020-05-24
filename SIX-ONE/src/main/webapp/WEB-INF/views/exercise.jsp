@@ -12,7 +12,7 @@
 									<div class="col-md-6 col-sm-12 col-md-offset-3 slider-text">
 										<div class="slider-text-inner text-center">
 											<h1>운동하기</h1>
-											<h2><span><a href="index.html">Home</a> | <a href="#Exercise" class="scroll" style="color:white">바로가기</a></span></h2>
+											<h2><span><a href="<c:url value='/'/>">Home</a> | <a href="#Exercise" class="scroll" style="color:white">바로가기</a></span></h2>
 										</div>
 									</div>
 								</div>
