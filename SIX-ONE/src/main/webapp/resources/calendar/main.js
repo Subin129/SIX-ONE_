@@ -64,6 +64,9 @@
         }
       });
     },
+    eventReceive:function(info){
+        info.event.setEnd(moment(info.event.start).add(7,'days').format('YYYY-MM-DD'));
+      },
     drop: function(){
       $.ajax({
         type: "get",

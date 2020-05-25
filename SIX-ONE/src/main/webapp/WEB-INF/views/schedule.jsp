@@ -61,33 +61,33 @@
       <div class="modal-dialog" role="document">
           <div class="modal-content">
               <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                          aria-hidden="true">&times;</span></button>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  	<span aria-hidden="true">&times;</span>
+                  </button>
                   <h4 class="modal-title"></h4>
               </div>
-              <div class="modal-body">
+              <div class="modal-body form-horizontal ">
 
-                  <div class="row">
-                      <div class="col-xs-12">
-                          <label class="col-xs-4" for="edit-title">일정명</label>
-                          <input class="inputModal" type="text" name="edit-title" id="edit-title"
-                              required="required" />
-                      </div>
+                  <div class="form-group">
+                      
+                          <label class="col-xs-4 control-label" for="edit-title">운동명</label>
+                          <input class="col-xs-8 form-control" type="text" name="edit-title" id="edit-title" required="required" />
+                      
                   </div>
-                  <div class="row">
+                  <div class="form-group">
                       <div class="col-xs-12">
                           <label class="col-xs-4" for="edit-start">시작</label>
-                          <input class="inputModal" type="text" name="edit-start" id="edit-start" />
+                          <input class="col-xs-8 form-control" type="text" name="edit-start" id="edit-start" />
                       </div>
                   </div>
-                  <div class="row">
+                  <div class="form-group">
                       <div class="col-xs-12">
                           <label class="col-xs-4" for="edit-end">끝</label>
                           <input class="inputModal" type="text" name="edit-end" id="edit-end" />
                       </div>
                   </div>
                   
-                  <div class="row">
+                  <div class="form-group">
                       <div class="col-xs-12">
                           <label class="col-xs-4" for="edit-color">색상</label>
                           <select class="inputModal" name="color" id="edit-color">
@@ -99,11 +99,10 @@
                           </select>
                       </div>
                   </div>
-                  <div class="row">
+                  <div class="form-group">
                       <div class="col-xs-12">
                           <label class="col-xs-4" for="edit-desc">설명</label>
-                          <textarea rows="4" cols="50" class="inputModal" name="edit-desc"
-                              id="edit-desc"></textarea>
+                          <textarea rows="4" cols="50" class="inputModal" name="edit-desc" id="edit-desc"></textarea>
                       </div>
                   </div>
               </div>
