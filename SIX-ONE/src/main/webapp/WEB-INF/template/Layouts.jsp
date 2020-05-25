@@ -60,7 +60,7 @@
 								</li>
 								<li><a href="<c:url value='/schedule.do'/>">스케쥴</a></li>
 								<li><a href="<c:url value='/TimeLine.do'/>">타임라인</a></li>
-								<li><a href="event.html">게시판</a></li>
+								<li><a href="<c:url value='/freeboard.do'/>">게시판</a></li>
 								<li><a href="blog.html">Blog</a></li>
 								<li><a href="contact.html">마이</a></li>
 							</ul>
