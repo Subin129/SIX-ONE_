@@ -677,11 +677,23 @@ h1, h2, h3, h4, h5, h6, figure {
 
 }
  
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
   .week{
     margin:0px;
     width: 100%;
-  }}
+  }
+  .entry-forth {
+    display: inline;
+    
+  }
+  
+  .entry-forth p{
+    display: inline-block;
+    margin: 10px;
+    
+  }
+  
+}
 .week div{
   width: 100%;
 }
