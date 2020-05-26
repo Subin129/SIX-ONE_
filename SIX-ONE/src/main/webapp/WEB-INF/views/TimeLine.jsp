@@ -8,7 +8,7 @@
 <!--  본문 -->
 <div class="col-md-3 col-md-offset-1 trainers-entry follow" style="padding-top:30px">  
 							<img src="${aaa }" style="width: 100%; height: 500px;" />
-							<p style="color: black;">대충 따라오는 메뉴</p>
+							<p style="color: black;">대충 따라오는 메s뉴</p>
 				</div>
 		<div class="col-md-6 col-md-offset-1 appendd" style="padding-top: 20px">
 			<div class="animate-box">
