@@ -46,21 +46,24 @@
 	<%}%>
 	
 	var page = 1;
-	var follow = $('.follow');
-	if($(window).width()<970){
-		$('.follow').remove();
-		
+	var followFlag = true;
 	
 	
-		
-	}
+	$( window ).resize( function() {
+		if($(window).width()<970 && followFlag){
+			$('.follow *').remove();
+			followFlag = false;
+		}else if($(window).width()>970 && !followFlag){
+			$('.follow').append('<img src="${aaa }" style="width: 100%; height: 500px;" /><p style="color: black;">대충 따라오는 메뉴</p>');
+			followFlag = true;
+		}
+	});
 	
-
 	$(window)
 			.scroll(
 					function() {
 						if ($(window).scrollTop() + 500 < ($(document).height() - $(window).height())) {
-							follow.attr('style',('padding-top :'+ $(window).scrollTop()+'px') );
+							$('.follow').attr('style',('padding-top :'+ $(window).scrollTop()+'px') );
 						}
 						
 						console.log($(window).scrollTop(),

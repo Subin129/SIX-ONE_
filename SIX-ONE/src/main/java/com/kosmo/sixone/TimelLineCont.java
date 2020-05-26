@@ -23,8 +23,6 @@ public class TimelLineCont {
 			images[i] = "resources/images/classes-"+(i+1)+".jpg";
 		
 		req.setAttribute("images", images);
-		//http://localhost:8080/sixone/resources/css/fonts/icomoon.woff?5j2n32
-		//http://localhost:8080/sixone/resources/fonts/icomoon/icomoon.ttf?srf3rx
 		
 		return "/TimeLine.tiles";
 	}
