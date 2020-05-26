@@ -3,8 +3,8 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="ko">
-
 <!-- jQuery -->
+<link href="//db.onlinewebfonts.com/c/0265b98b68ecf1b3d801b5df4dc155e7?family=icomoon" rel="stylesheet" type="text/css"/>
 	<script src="<c:url value='/resources/js/jquery.min.js' />"></script>
 	<!-- jQuery Easing -->
 	<script src="<c:url value='/resources/js/jquery.easing.1.3.js' />"></script>
@@ -43,7 +43,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-2">
-							<div id="colorlib-logo"><a href="<c:url value='/'/>">SITENAME</a></div>
+							<div id="colorlib-logo"><a href="<c:url value='/'/>">SIX-ONE</a></div>
 						</div>
 						<div class="col-md-10 text-right menu-1">
 							<ul>
