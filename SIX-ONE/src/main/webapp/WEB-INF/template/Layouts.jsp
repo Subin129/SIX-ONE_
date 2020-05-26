@@ -41,13 +41,9 @@
 			<div class="top-menu">
 				<div class="container" >
 					<div class="row">
-<<<<<<< HEAD
-						<div class="col-md-2" id="drop">
-							<div id="colorlib-logo"><a href="<c:url value='/'/>">SITENAME</a></div>
-=======
+
 						<div class="col-md-2">
 							<div id="colorlib-logo"><a href="<c:url value='/'/>">SIX-ONE</a></div>
->>>>>>> branch 'master' of https://github.com/Subin129/SIX-ONE.git
 						</div>
 						<div class="col-md-10 text-right menu-1">
 							<ul >
