@@ -3,7 +3,7 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 		<img src="resources/images/black.jpg" style="width: 100%; height: 100px;" />
-
+<%String[] images = (String[])request.getAttribute("images"); %>
 
 <!--  본문 -->
 <div class="col-md-3 col-md-offset-1 trainers-entry follow" style="padding-top:30px">  
@@ -35,47 +35,35 @@
 		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
 	</div>
 
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
 
-</body>
 
 <script>
 	jQuery(document).ready(function($) {
 
+	var images = Array();
+	<%for(int i=0;i<10;i++){%>
+		images[<%=i%>] = '<%=images[i]%>';
+	<%}%>
 	
 	var page = 1;
-	var follow = $('.follow');
-	if($(window).width()<970){
-		$('.follow').remove();
-		
-	}
+	var followFlag = true;
 	
-
+	
+	$( window ).resize( function() {
+		if($(window).width()<970 && followFlag){
+			$('.follow *').remove();
+			followFlag = false;
+		}else if($(window).width()>970 && !followFlag){
+			$('.follow').append('<img src="${aaa }" style="width: 100%; height: 500px;" /><p style="color: black;">대충 따라오는 메뉴</p>');
+			followFlag = true;
+		}
+	});
+	
 	$(window)
 			.scroll(
 					function() {
 						if ($(window).scrollTop() + 500 < ($(document).height() - $(window).height())) {
-							follow.attr('style',('padding-top :'+ $(window).scrollTop()+'px') );
+							$('.follow').attr('style',('padding-top :'+ $(window).scrollTop()+'px') );
 						}
 						
 						console.log($(window).scrollTop(),
@@ -87,9 +75,9 @@
 								
 								$(".appendd")
 										.append(
-												'<div class="animate-bos"><div class="trainers-entry"><div class="trainer-img" style="background-image: url(resources/images/classes-'
-														+ page
-														+ '.jpg); height:600px"></div><div class="desc"><h3>'
+												'<div class="animate-bos"><div class="trainers-entry"><div class="trainer-img" style="background-image: url('
+														+ images[(page-1)]
+														+ '); height:600px"></div><div class="desc"><h3>'
 														+ page
 														+ '번 게시물 아이디 들어갈곳</h3><span>'
 														+ page++

@@ -3,8 +3,8 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="ko">
-
 <!-- jQuery -->
+<link href="//db.onlinewebfonts.com/c/0265b98b68ecf1b3d801b5df4dc155e7?family=icomoon" rel="stylesheet" type="text/css"/>
 	<script src="<c:url value='/resources/js/jquery.min.js' />"></script>
 	<!-- jQuery Easing -->
 	<script src="<c:url value='/resources/js/jquery.easing.1.3.js' />"></script>
@@ -41,8 +41,13 @@
 			<div class="top-menu">
 				<div class="container" >
 					<div class="row">
+<<<<<<< HEAD
 						<div class="col-md-2" id="drop">
 							<div id="colorlib-logo"><a href="<c:url value='/'/>">SITENAME</a></div>
+=======
+						<div class="col-md-2">
+							<div id="colorlib-logo"><a href="<c:url value='/'/>">SIX-ONE</a></div>
+>>>>>>> branch 'master' of https://github.com/Subin129/SIX-ONE.git
 						</div>
 						<div class="col-md-10 text-right menu-1">
 							<ul >
@@ -59,7 +64,7 @@
 								</li>
 								<li><a href="<c:url value='/schedule.do'/>">스케쥴</a></li>
 								<li><a href="<c:url value='/TimeLine.do'/>">타임라인</a></li>
-								<li><a href="event.html">게시판</a></li>
+								<li><a href="<c:url value='/freeboard.do'/>">게시판</a></li>
 								<li><a href="blog.html">Blog</a></li>
 								<li><a href="#" data-toggle="modal" data-target="#myModal" id="MyMenu">마이</a></li>
 							</ul>

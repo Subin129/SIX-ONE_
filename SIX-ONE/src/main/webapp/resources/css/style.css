@@ -44,9 +44,7 @@ body {
 
 a {
   color: #DC2F2F;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+   }
   a:hover, a:active, a:focus {
     color: #DC2F2F;
     outline: none;
@@ -679,11 +677,23 @@ h1, h2, h3, h4, h5, h6, figure {
 
 }
  
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
   .week{
     margin:0px;
     width: 100%;
-  }}
+  }
+  .entry-forth {
+    display: inline;
+    
+  }
+  
+  .entry-forth p{
+    display: inline-block;
+    margin: 10px;
+    
+  }
+  
+}
 .week div{
   width: 100%;
 }
@@ -1995,6 +2005,28 @@ input[type="text"] {
 .member{
   background-color: rgba(255, 255, 255, .8); 
   padding: 20px;
+}
+@keyframes blink {  
+    0% { color: red; }
+    100% { color: black; }
+}
+@-webkit-keyframes blink {
+    0% { color: red; }
+    100% { color: black; }
+}
+.blink {
+    -webkit-animation: blink 0.5s linear infinite;
+    -moz-animation: blink 0.5s linear infinite;
+    -ms-animation: blink 0.5s linear infinite;
+    -o-animation: blink 0.5s linear infinite;
+    animation: blink 0.5s linear infinite;
+} 
+
+.underline{
+	border-bottom-style :5px solid;
+	border-bottom-color : black;
+	
+
 }
 
 
