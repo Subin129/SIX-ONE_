@@ -77,5 +77,6 @@
 	<footer id="siteBottom">
 		<tiles:insertAttribute name="siteBottom"/>
 	</footer>
+	</div>
 </body>
 </html>
