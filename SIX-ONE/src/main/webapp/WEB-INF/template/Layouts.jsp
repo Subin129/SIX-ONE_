@@ -37,16 +37,16 @@
 	<div class="colorlib-loader"></div>
 
 	<div id="page">
-		<nav class="colorlib-nav" role="navigation">
-			
+		<nav class="colorlib-nav" role="navigation"  >
 			<div class="top-menu">
-				<div class="container">
+				<div class="container" >
 					<div class="row">
+
 						<div class="col-md-2">
 							<div id="colorlib-logo"><a href="<c:url value='/'/>">SIX-ONE</a></div>
 						</div>
 						<div class="col-md-10 text-right menu-1">
-							<ul>
+							<ul >
 								<li class="active"><a href="<c:url value='/'/>">홈</a></li>
 								<li class="has-dropdown">
 									<a href="<c:url value='/exercise.do'/>">운동</a>
@@ -62,7 +62,7 @@
 								<li><a href="<c:url value='/TimeLine.do'/>">타임라인</a></li>
 								<li><a href="<c:url value='/freeboard.do'/>">게시판</a></li>
 								<li><a href="blog.html">Blog</a></li>
-								<li><a href="contact.html">마이</a></li>
+								<li><a href="#" data-toggle="modal" data-target="#myModal" id="MyMenu">마이</a></li>
 							</ul>
 						</div>
 					</div>

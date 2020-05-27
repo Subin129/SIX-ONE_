@@ -85,7 +85,7 @@
 							if ($(window).scrollTop() + 800 > ($(document)
 									.height() - $(window).height())) {
 								
-								$(".appendd") //카루셀도..대응시켜야..하는데..
+								$(".appendd") //카루셀도..대응시켜야..하는p
 										.append(
 												'<div class="animate-bos"><div class="trainers-entry"><div class="trainer-img" style="background-image: url('
 														+ images[(page-1)]

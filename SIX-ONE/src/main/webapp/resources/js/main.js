@@ -36,7 +36,7 @@
 
     			$('body').removeClass('offcanvas');
     			$('.js-colorlib-nav-toggle').removeClass('active');
-				
+    			
 	    	}
 	    
 	    	
@@ -84,7 +84,7 @@
 
     			$('body').removeClass('offcanvas');
     			$('.js-colorlib-nav-toggle').removeClass('active');
-				
+
 	    	}
 		});
 	};
@@ -92,6 +92,7 @@
 	var burgerMenu = function() {
 
 		$('body').on('click', '.js-colorlib-nav-toggle', function(event){
+		
 			var $this = $(this);
 
 
