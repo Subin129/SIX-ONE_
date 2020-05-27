@@ -206,7 +206,7 @@
 							<div class="desc">
 								<p class="admin"><span>Posted by:</span> <span>Noah Henderson</span></p>
 								<h2><a href="blog.html">Need workout motivation?</a></h2>
-								<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
+								<p>Even the all-powerful Pointing hass no control about the blind texts it is an almost unorthographic life</p>
 							</div>
 						</article>
 					</div>
