@@ -57,7 +57,8 @@
    background: #DF691A;
  }
  .fc-content{
- 	font-size:18px;
+ 	font-size:23px;
+ 	color:white;
  }
  .btn-primary{
  	background-color:#69caf7;
@@ -127,7 +128,7 @@
                   <div class="form-horizontal">
 
                     <div class="form-group">
-                      <label class="col-sm-2 control-label" for="edit-title">일정명</label>
+                      <label class="col-sm-2 control-label" for="edit-title">운동명</label>
                       <div class="col-sm-10">
                           <input class="form-control" type="text" name="edit-title" id="edit-title" required="required" />
                       </div>

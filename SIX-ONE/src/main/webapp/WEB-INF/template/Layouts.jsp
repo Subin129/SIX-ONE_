@@ -47,8 +47,8 @@
 						</div>
 						<div class="col-md-10 text-right menu-1">
 							<ul >
-								<li class="active"><a href="<c:url value='/'/>">홈</a></li>
-								<li class="has-dropdown">
+								<li id="nav-home"><a href="<c:url value='/'/>">홈</a></li>
+								<li id="nav-exercise" class="has-dropdown">
 									<a href="<c:url value='/exercise.do'/>">운동</a>
 									<ul class="dropdown">
 										<li><a href="<c:url value='/exercise.do'/>">운동</a></li>
@@ -58,9 +58,9 @@
 										<li><a href="#">Body Building</a></li>
 									</ul>
 								</li>
-								<li><a href="<c:url value='/schedule.do'/>">스케쥴</a></li>
-								<li><a href="<c:url value='/TimeLine.do'/>">타임라인</a></li>
-								<li><a href="<c:url value='/freeboard.do'/>">게시판</a></li>
+								<li id="nav-schedule"><a href="<c:url value='/schedule.do'/>">스케쥴</a></li>
+								<li id="nav-timeline"><a href="<c:url value='/TimeLine.do'/>">타임라인</a></li>
+								<li id="nav-freeboard"><a href="<c:url value='/freeboard.do'/>">게시판</a></li>
 								<li><a href="blog.html">Blog</a></li>
 								<li><a href="#" data-toggle="modal" data-target="#myModal" id="MyMenu">마이</a></li>
 							</ul>
@@ -78,5 +78,22 @@
 		<tiles:insertAttribute name="siteBottom"/>
 	</footer>
 	</div>
+	<script>
+		if(location.pathname.indexOf('exercise') != -1){
+			$('#nav-exercise').addClass('active');
+		}
+		else if(location.pathname.indexOf('schedule') != -1){
+			$('#nav-schedule').addClass('active');
+		}
+		else if(location.pathname.indexOf('TimeLine') != -1){
+			$('#nav-timeline').addClass('active');
+		}
+		else if(location.pathname.indexOf('freeboard') != -1){
+			$('#nav-freeboard').addClass('active');
+		}
+		else{
+			$('#nav-home').addClass('active');
+		}
+	</script>
 </body>
 </html>
